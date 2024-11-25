@@ -29,7 +29,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/auth/register', {
+      const response = await axios.post('https://litelife.onrender.com/auth/register', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
