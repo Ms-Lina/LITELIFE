@@ -71,6 +71,19 @@ cd LITELIFE
    ```
 ---
 
+## Deployment
+
+For deployment different services used are shown below:
+
+1. **Frontend**:
+   - Used a hosting service  Netlify.
+   - Run `npm run build` in the `client` directory to generate production files.
+2. **Backend**:
+   - Deployed to a cloud service Render.
+   - Ensured the environment variables are properly set up.
+  
+**Deployed Solution**is accessible [here](https://litelifee.netlify.app/)
+---
 ## Technologies Used
 
 - **Frontend**:
